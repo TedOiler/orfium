@@ -1,0 +1,37 @@
+{
+  "model_name": "ridge_baseline",
+  "n_train_rows": 68328,
+  "n_val_rows": 14650,
+  "n_test_rows": 14642,
+  "n_train_videos": 6835,
+  "n_val_videos": 1465,
+  "n_test_videos": 1465,
+  "feature_cols": [
+    "log_video_duration",
+    "log_vph",
+    "log_likes",
+    "log_views",
+    "log_comments",
+    "log_channel_subscribers",
+    "TIME_IDX",
+    "time_since_prev_scrape_min",
+    "time_since_first_scrape_min",
+    "video_age_at_scrape_min"
+  ],
+  "train_metrics": {
+    "rmse_log": 1.499538075972698,
+    "mae_log": 1.1253340644277565,
+    "r2_log": 0.6661751845544415,
+    "rmse_original": 1677631.4433100424,
+    "mae_original": 364155.54201446957,
+    "r2_original": 0.29987199520824614
+  },
+  "val_metrics": {
+    "rmse_log": 1.5790532596454703,
+    "mae_log": 1.1804680125898193,
+    "r2_log": 0.641039367139097,
+    "rmse_original": 1377660.9647417695,
+    "mae_original": 366320.002773065,
+    "r2_original": 0.2342658025234876
+  }
+}

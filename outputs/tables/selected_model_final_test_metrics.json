@@ -1,0 +1,14 @@
+{
+  "selected_on": "validation_rmse_log",
+  "selected_model": "hist_gradient_boosting",
+  "test_rows": 14642,
+  "test_videos": 1465,
+  "test_metrics": {
+    "rmse_log": 1.331002778272091,
+    "mae_log": 0.9649210453369635,
+    "r2_log": 0.7473161360481302,
+    "rmse_original": 2846354.5496037477,
+    "mae_original": 451691.6680109619,
+    "r2_original": 0.1864429313446303
+  }
+}

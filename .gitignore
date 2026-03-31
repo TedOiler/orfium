@@ -4,7 +4,6 @@ __pycache__/
 *$py.class
 
 **/.DS_Store
-data/raw/dataset_100k_10dp.csv
 # C extensions
 *.so
 
